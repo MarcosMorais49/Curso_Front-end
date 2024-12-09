@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/12_BLOG_PRJ_HTML_SEMANTICO/CSS/styles.css">
+    <title>Blog HTML Semântico</title>
+</head>
+<body>
+    <header>
+        <nav id="navbar">
+            <div id="navbar-inner">
+                <h2>Blog</h2>
+                <ul id="nav-links">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Categorias</a></li>
+                    <li><a href="#">Contato</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+        <main id="posts-container">
+            <article class="post">
+                <img src="/12_BLOG_PRJ_HTML_SEMANTICO/img/f1.jpg" alt="barco no rio">
+                <h3 class="title"><a href="#">Algum Título</a></h3>
+                <p class="description">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto cumque ea culpa ut unde velit nihil a commodi, cum molestiae expedita reiciendis animi ipsa tempore tempora repudiandae architecto? Iste, eos!
+                </p>
+                <p class="author">Por: Marcos Morais</p>
+                <a href="#">Ler mais...</a>  
+            </article>
+            <article class="post">
+                <img src="/12_BLOG_PRJ_HTML_SEMANTICO/img/f2.jpg" alt="cachoeira">
+                <h3 class="title"><a href="#">Algum Título</a></h3>
+                <p class="description">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, dolor? Obcaecati accusamus deserunt, minima quaerat mollitia veritatis quisquam tenetur aliquam, fugiat debitis dolore dolorum placeat ipsum aut. Tenetur, vel sequi!
+                </p>
+                <p class="author">Por: Marcos Morais</p>
+                <a href="#">Ler mais...</a>
+            </article>
+            <article class="post">
+                <img src="/12_BLOG_PRJ_HTML_SEMANTICO/img/f3.jpg" alt="baloes">
+                <h3 class="title"><a href="#">Algum Título</a></h3>
+                <p class="description">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum assumenda dicta voluptates rem? Obcaecati odit praesentium sequi maiores eveniet deserunt, labore deleniti perspiciatis dicta eos exercitationem, quasi veniam libero quaerat.
+                </p>
+                <p class="author">Por: Marcos Morais</p>
+                <a href="#">Ler mais...</a>
+            </article>
+        </main>
+        <aside id="sidebar">
+            <section id="search-bar">
+                <h4>Busca</h4>
+                <form>
+                    <input type="text" class="text-search" placeholder="Pesquise no blog">
+                    <input type="submit" value="Buscar">
+                </form>
+            </section>
+            <section id="categories">
+                <h4>Categorias</h4>
+                <nav>
+                    <ul id="list-categories">
+                        <li>
+                            <a href="#">Paisagens</a>
+                        </li>
+                        <li>
+                            <a href="#">Aventura</a>
+                        </li>
+                        <li>
+                            <a href="#">Viagens Longas</a>
+                        </li>
+                        <li>
+                            <a href="#">Florestas</a>
+                        </li>
+                        <li>
+                            <a href="#">Cachoeiras</a>
+                        </li>
+                    </ul>
+                </nav>
+            </section>
+            <section id="tags">
+                <h4>Tags</h4>
+                <div id="tags-container">
+                    <a href="#">Lifestyle</a>
+                    <a href="#">Viagem</a>
+                    <a href="#">Barco</a>
+                    <a href="#">Trilha</a>
+                    <a href="#">Tirolesa</a>
+                    <a href="#">Rafting</a>
+                    <a href="#">Parapente</a>
+                </div>
+            </section>
+        </aside>
+    </div>
+    <footer id="footer">
+        <h2>Blog</h2>
+        <p>Os melhores registros de aventuras</p>
+        <p>2022 &copy; Hora de Codar</p>
+    </footer>
+</body>
+</html>
